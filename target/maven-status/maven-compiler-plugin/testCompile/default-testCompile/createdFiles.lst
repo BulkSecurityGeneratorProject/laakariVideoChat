@@ -1,0 +1,6 @@
+com/thedevbridge/videochat/web/rest/UserResourceIntTest.class
+com/thedevbridge/videochat/web/rest/TestUtil.class
+com/thedevbridge/videochat/web/rest/AccountResourceIntTest.class
+com/thedevbridge/videochat/service/UserServiceIntTest.class
+com/thedevbridge/videochat/web/rest/AuditResourceIntTest.class
+com/thedevbridge/videochat/security/SecurityUtilsUnitTest.class

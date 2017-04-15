@@ -1,0 +1,56 @@
+
+<div ng-cloak>
+      <div class="container">
+            <div class="row">
+                  <div class="jumbotron"> 
+                         <h3> 
+                              Hello!!! welcome to your new videoChatApp.
+                              stop noise and just enjoy it.
+                         </h3>
+                  </div> 
+            </div>
+		    <div class="row">
+		       
+			        <div class="col-xs-12 col-sm-12 col-md-4">
+			             <div class="row">
+						      <div class="col-xs-12 col-sm-12 col-md-12">
+						    
+					                 <div class="form-group">
+					                      <label>Name: </label>
+					                      <input id="name" ng-keydown="keydown($event)" type="text" placeholder="Enter your name" class="form-control" ng-model="callerName"/>
+					                      <div ng-hide="error1">You need to enter your register name</div>
+					                 </div>
+					                 
+					                 <button class="btn btn-primary" ng-disabled="disabled"  ng-click="registername()"><span class="glyphicon glyphicon-plus"> </span>Register </button>
+				              </div>
+				              <div >
+				                  <div class="row">
+				                    <div class="col-xs-12 col-sm-12 col-md-6">
+						                 <div class="form-group">
+						                      <label>Peer: </label>
+						                      <input id="peer"  ng-keydown="keycall($event)" type="text" placeholder="the name of someOne you need to Call" class="form-control" ng-model="peerName"/>
+						                      <div ng-hide="error">You need to enter the name of call receiver</div>
+						                 </div>
+					                 </div>
+					                 <div col-xs-6>
+						                  <button class="btn btn-success" ng-disabled="disabled2" ng-click="call()"><span class="glyphicon glyphicon-camera"> </span>Call </button>
+						                  <button class="btn btn-danger" ng-disabled="disabled1" ng-click="Stop()"><span class="glyphicon glyphicon-stop" > </span>Stop </button>
+								     </div>
+							    </div>
+					          </div>
+						 </div>
+			        </div>
+			        <div class="col-md-6">
+			             <div class="row">
+				             <div class="col-xs-12 col-sm-12 col-md-6">
+						          <video id="videoOutput" poster="../../img/webrtc.png" width="640px" height="480px" autoplay></video>
+						     </div>
+					     
+						     <div id="videoSmall" class="col-xs-12 col-sm-12 col-md-4">
+						          <video id="videoInput" poster="../../img/webrtc.png" width="240px" height="180px" autoplay></video>
+						     </div>
+					     </div>
+			        </div>
+		    
+           </div>
+</div>

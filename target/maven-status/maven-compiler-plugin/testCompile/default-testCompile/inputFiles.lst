@@ -1,0 +1,6 @@
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/web/rest/UserResourceIntTest.java
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/security/SecurityUtilsUnitTest.java
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/web/rest/AccountResourceIntTest.java
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/service/UserServiceIntTest.java
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/web/rest/TestUtil.java
+/home/florent/dev/WebcamChat/src/test/java/com/thedevbridge/videochat/web/rest/AuditResourceIntTest.java
